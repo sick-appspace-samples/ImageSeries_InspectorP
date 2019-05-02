@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="ImageSeries_InspectorP">
+        <crown name="ImageSeries_InspectorP6xx">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="tags">InspectorP,Image</meta>
+        <entry path="scripts" default="ImageSeries.lua">
+            <file type="text/x-lua">ImageSeries.lua</file>
+        </entry>
+    </application>
+</manifest>
