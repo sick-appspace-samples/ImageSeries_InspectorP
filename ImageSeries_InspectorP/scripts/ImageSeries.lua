@@ -25,6 +25,8 @@ local function main()
 end
 Script.register('Engine.OnStarted', main)
 
+---@param im Image
+---@param sensorData SensorData
 local function processImage(im, sensorData)
   viewer:clear()
   viewer:addImage(im)
